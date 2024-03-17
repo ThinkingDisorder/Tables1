@@ -9,11 +9,12 @@
 </head>
 <body>
   <header>
-    <h1>Edward Table 1</h1>
+    <h1>Edward Lab 1: Tables</h1>
     <nav>
       <ul>
         <li><a href="https://www.cuny.edu">CUNY</a></li>
         <li><a href="https://www.bmcc.cuny.edu">BMCC</a></li>
+        <li><a href=index.html>Home</a></li>
       </ul>
     </nav>
   </header>
@@ -145,42 +146,125 @@
     </table>
 
     <div>&nbsp;</div>
-    <p>Table 4 demonstrates an invisible table with border="0" and also the use of table headings.</p>
-    <div style="text-align: center;">
-      <h3>Animal Names in English and Spanish</h3>
-      <table border="9" cellpadding="10">
-        <caption align="bottom"><strong>Table 4:</strong><br />Invisible table (border="0") and use of table heading tags.</caption>
-        <tr>
-          <th>English</th>
-          <th>Image</th>
-          <th>Spanish</th>
-        </tr>
-        <tr>
-          <th>Cat</th>
-          <td><img src="cat.jpg" alt="Cat" width="100" height="100"></td>
-          <th>Gato</th>
-        </tr>
-        <tr>
-          <th>Dog</th>
-          <td><img src="dog.jpg" alt="Dog" width="100" height="100"></td>
-          <th>Perro</th>
-        </tr>
-        <tr>
-          <th>Giraffe</th>
-          <td><img src="giraffe.jpg" alt="Giraffe" width="100" height="100"></td>
-          <th>Jirafa</th>
-        </tr>
-        <tr>
-          <th>Parasite</th>
-          <td><img src="parasite.jpg" alt="Parasite" width="100" height="100"></td>
-          <th>Parásito</th>
-        </tr>
-      </table>
-    </div>
-  </main>
+<p>Table 4 demonstrates an invisible table with border="0" and also the use of table headings.</p>
+<div style="text-align: center;">
+  <h3>Animal Names in English and Spanish</h3>
+  <caption align="bottom"><strong>Table 4:</strong><br />Invisible table (border="0") and use of table heading tags.</caption>
+  <table border="0" cellpadding="10">
+    <tr>
+      <th>English</th>
+      <th>Image</th>
+      <th>Spanish</th>
+    </tr>
+    <tr>
+      <td>Cat</td>
+      <td><img src="cat.jpg" alt="Cat" width="100" height="100"></td>
+      <td>Gato</td>
+    </tr>
+    <tr>
+      <td>Dog</td>
+      <td><img src="dog.jpg" alt="Dog" width="100" height="100"></td>
+      <td>Perro</td>
+    </tr>
+    <tr>
+      <td>Giraffe</td>
+      <td><img src="giraffe.jpg" alt="Giraffe" width="100" height="100"></td>
+      <td>Jirafa</td>
+    </tr>
+    <tr>
+      <td>Parasite</td>
+      <td><img src="parasite.jpg" alt="Parasite" width="100" height="100"></td>
+      <td>Parásito</td>
+    </tr>
+  </table>
+</div>
 
+<div>&nbsp;</div>
+<p>The next four tables demonstrate the use of the width attribute, and the difference between fixed width tables that use the absolute unit of pixels, and variable width tables that use the relative unit of percent (%).</p>
 
-            <footer>
+<table border="1" cellpadding="10" width="500">
+  <caption align="bottom"><strong>Table 5:</strong><br/>A fixed width table, width = 500 pixels</caption>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+  </tr>
+</table>
+
+<div>&nbsp;</div>
+<p>Table 6: A fixed width table, with fixed width column as well:</p>
+
+<table border="1" cellpadding="10" width="500">
+  <caption align="bottom"><strong>Table 6:</strong><br/>A fixed width table with fixed width column</caption>
+  <tr>
+    <td width="250">1</td>
+    <td>2</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+  </tr>
+</table>
+
+<div>&nbsp;</div>
+<p>Table 7: A variable width table, using the relative unit of percent (%):</p>
+
+<table border="1" cellpadding="10" width="60%">
+  <caption align="bottom"><strong>Table 7:</strong><br/>A variable width table, width = 60%</caption>
+  <tr>
+    <td width="30%">1</td>
+    <td width="30%">2</td>
+    <td width="30%">3</td>
+  </tr>
+  <tr>
+    <td width="30%">4</td>
+    <td width="30%">5</td>
+    <td width="30%">6</td>
+  </tr>
+</table>
+
+<div>&nbsp;</div>
+<p>Table 8: A variable width table, with variable width column as well:</p>
+
+<table border="1" cellpadding="10" width="60%">
+  <caption align="bottom"><strong>Table 8:</strong><br/>A variable width table, width = 60% and first column has width =75%</caption>
+  <tr>
+    <td width="75%">1</td>
+    <td width="25%">2</td>
+    <td width="25%">3</td>
+  </tr>
+  <tr>
+    <td width="75%">4</td>
+    <td width="25%">5</td>
+    <td width="25%">6</td>
+  </tr>
+</table>
+
+<div>&nbsp;</div>
+<p>Table 9: A variable width table, with a fixed width column:</p>
+
+<table border="1" cellpadding="10" width="60%">
+  <caption align="bottom"><strong>Table 9:</strong><br/>A variable width table, width = 60% and first column has fixed width of 150 pixles</caption>
+  <tr>
+    <td width="150">1</td>
+    <td width="25%">2</td>
+    <td width="25%">3</td>
+  </tr>
+  <tr>
+    <td width="150">4</td>
+    <td width="25%">5</td>
+    <td width="25%">6</td>
+  </tr>
+</table>
+
+           <footer>
               <p>Last updated: March 17, 2024</p>
               <p>
                 HTML Validator: <a href="https://validator.w3.org/#validate">Validate HTML</a> /
