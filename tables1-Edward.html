@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>tables1 - Lastname</title>
+  <title>tables1 - Edward</title>
+  <meta name="author" content="Edward">
+  <meta name="description" content="This page demonstrates several features of HTML tables, including basic table structure, cellpadding, cellspacing, borders, and captions.">
+  <meta name="keywords" content="HTML, tables, structure, cellpadding, cellspacing, borders, captions">
 </head>
 <body>
   <header>
-    <h1>Lastname</h1>
+    <h1>Edward Table 1</h1>
     <nav>
       <ul>
         <li><a href="https://www.cuny.edu">CUNY</a></li>
@@ -17,16 +20,172 @@
   
   <main>
     <p>This exercise demonstrates several features of HTML tables.</p>
-    <p>The first three tables demonstrate basic table structure, including cellpadding, cellspacing, borders and caption.</p>
+    <p>The first three tables demonstrate basic table structure, including cellpadding, cellspacing, borders, and caption.</p>
 
+    <!-- Table 1: Plain Vanilla -->
+    <table border="1">
+      <caption>Table 1: 5 x 5 (border="1")</caption>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+      </tr>
+    </table>
+
+    <!-- Table 2: Cellpadding and Caption -->
+    <div>&nbsp;</div> 
+    <table border="1" cellpadding="15">
+      <caption>Table 2: A table that uses the cellpadding attribute; adding a caption</caption>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+      </tr>
+    </table>
+
+    <!-- Table 3: Cellspacing and Border -->
+    <div>&nbsp;</div> 
+    <table border="25" cellspacing="15">
+      <caption><strong>Table 3:</strong><br />A table with cellspacing="15" and border="25"</caption>
+      <tr>
+        <td>This</td>
+        <td>table</td>
+        <td>has</td>
+        <td>cellspacing="15"</td>
+        <td>&border="25"</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td>16</td>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+      </tr>
+      <tr>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+        <td>24</td>
+        <td>25</td>
+      </tr>
+    </table>
+
+    <div>&nbsp;</div>
+    <p>Table 4 demonstrates an invisible table with border="0" and also the use of table headings.</p>
+    <div style="text-align: center;">
+      <h3>Animal Names in English and Spanish</h3>
+      <table border="9" cellpadding="10">
+        <caption align="bottom"><strong>Table 4:</strong><br />Invisible table (border="0") and use of table heading tags.</caption>
+        <tr>
+          <th>English</th>
+          <th>Image</th>
+          <th>Spanish</th>
+        </tr>
+        <tr>
+          <th>Cat</th>
+          <td><img src="cat.jpg" alt="Cat" width="100" height="100"></td>
+          <th>Gato</th>
+        </tr>
+        <tr>
+          <th>Dog</th>
+          <td><img src="dog.jpg" alt="Dog" width="100" height="100"></td>
+          <th>Perro</th>
+        </tr>
+        <tr>
+          <th>Giraffe</th>
+          <td><img src="giraffe.jpg" alt="Giraffe" width="100" height="100"></td>
+          <th>Jirafa</th>
+        </tr>
+        <tr>
+          <th>Parasite</th>
+          <td><img src="parasite.jpg" alt="Parasite" width="100" height="100"></td>
+          <th>Parásito</th>
+        </tr>
+      </table>
+    </div>
   </main>
-  
-  <footer>
-    <p>Last updated: March 17, 2024</p>
-    <p>
-      HTML Validator: <a href="https://validator.w3.org/#validate">Validate HTML</a> /
-      CSS Validator: <a href="https://jigsaw.w3.org/css-validator/validator">Validate CSS</a>
-    </p>
-  </footer>
-</body>
-</html>
+
+
+            <footer>
+              <p>Last updated: March 17, 2024</p>
+              <p>
+                HTML Validator: <a href="https://validator.w3.org/#validate">Validate HTML</a> /
+                CSS Validator: <a href="https://jigsaw.w3.org/css-validator/validator">Validate CSS</a>
+              </p>
+            </footer>
+          </body>
+          </html>
